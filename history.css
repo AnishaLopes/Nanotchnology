@@ -1,0 +1,56 @@
+p{
+    width: 900px; /* Width of the box */
+    padding: 20px; /* Space inside the box */
+    margin: 20px auto; /* Center the box horizontally */
+    border: 2px solid #ffffff; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #02103b; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center text inside the box */
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hist{
+    font-size: 20px;
+    width: 300px; /* Width of the box */
+    padding: 20px; /* Space inside the box */
+    margin: 20px auto; /* Center the box horizontally */
+    border: 2px solid #ffffff; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #0c287a; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center text inside the box */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    font-size: 20px;
+    width: 300px; /* Width of the box */
+    padding: 20px; /* Space inside the box */
+    margin: 20px auto; /* Center the box horizontally */
+    border: 2px solid #ffffff; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #435fb3; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-right: 900px;
+    text-align: center; /* Center text inside the box */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div p{
+    width: 800px; /* Width of the box */
+    padding: 20px; /* Space inside the box */
+    /*margin: 20px auto;  Center the box horizontally */
+    border: 2px solid #ffffff; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #02103b; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    text-align: center; /* Center text inside the box */
+    color: white;
+    margin-right: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #7bb4ff;
+}

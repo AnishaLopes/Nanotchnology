@@ -1,0 +1,20 @@
+.gallery {
+    background-color: rgba(67, 104, 159, 0.489);
+    padding: 175px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    justify-items: center;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }

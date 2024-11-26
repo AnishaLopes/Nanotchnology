@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.navbar{
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo{
+    background-color: #7787ff;
+    background-image: linear-gradient(to top, #0810ff 0%, #99ccff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar_items{
+    height: 80px; 
+}
+
+.navbar_links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+}
+
+.navbar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #7787ff;
+    color: #fff;
+}
+
+.button:hover{
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
+.navbar_links:hover{
+    color: #7787ff;
+    transition: all 0.3s ease;
+}
+
+.main{
+    background-color: #141414;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 10px auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main_content h1 {
+    text-align: left;
+    font-size: 4rem;
+    background-color: #7787ff;
+    background-image: linear-gradient(to top, #0810ff 0%, #99ccff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.main_content h2 {
+    text-align: left;
+    font-size: 4rem;
+    background-color: #7787ff;
+    background-image: linear-gradient(to top, #0810ff 0%, #99ccff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.main_content p{
+    text-align: left;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main_img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;
+}
+
+#main_img{
+    width: 700px; 
+    height: auto; 
+    border: 2px solid white; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.sub_container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;
+    background-color: #80b3f9e2; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 20px;
+}
+
+#home h3{
+    background-color: #1e1965; /* White background for the box */
+    border: 2px solid #585b5f; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    box-shadow: 0 4px 8px rgb(255, 255, 255); /* Subtle shadow effect */
+    max-width: 900px; /* Maximum width of the box */
+    margin: auto; /* Center the box horizontally */
+    margin-top: 150px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 40px;
+}
+
+#home p{
+    background-color: #013a8f; /* White background for the box */
+    border: 2px solid #585b5f; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    box-shadow: 0 4px 8px rgb(255, 255, 255); /* Subtle shadow effect */
+    max-width: 900px; /* Maximum width of the box */
+    margin: auto; /* Center the box horizontally */
+    margin-top: 25px;
+    color: white;
+    font-size: 30px; 
+}
+
+.nano_click{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;
+    background-color: #011434e2; 
+    margin: 20px; 
+    padding: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center; /* Center the text inside the container */
+}
+
+#btn1,#btn2 {
+    display: inline-block; /* Make the link behave like a button */
+    padding: 20px 35px;   /* Add padding for a larger clickable area */
+    font-size: 25px;      /* Font size */
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #3f9afc; /* Button background color */
+    border: none;         /* Remove default border */
+    border-radius: 15px;   /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Subtle shadow effect */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+#btn1:hover {
+    background-color: #79afe8; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+#btn1:active {
+    transform: translateY(0); /* Reset position on click */
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3); /* Reduce shadow on click */
+}
+
+#btn2:hover {
+    background-color: #79afe8; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+#btn2:active {
+    transform: translateY(0); /* Reset position on click */
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3); /* Reduce shadow on click */
+}
+
+.explore{
+    text-align: left;
+    font-size: 4rem;
+    background-color: #7787ff;
+    background-image: linear-gradient(to top, #0810ff 0%, #99ccff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#contact{
+    background-color: #99ccff;
+    padding: 20px;
+    text-align: center;
+    color: #585b5f;
+}
+
+#contact h1{
+    color: #141414;
+}
